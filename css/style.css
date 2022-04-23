@@ -32,6 +32,8 @@ ul, ol{list-style-type:none;
 }
 
 .logo-footer {
+    font-family: 'Poppins';
+    font-weight: 400;
     font-size: 36px;
     line-height: 54px;
     color: #000000;
@@ -40,6 +42,8 @@ ul, ol{list-style-type:none;
     color: var(--color-secondary);
 }
 .footer-link {
+    font-family: 'Poppins';
+    font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.02em;
