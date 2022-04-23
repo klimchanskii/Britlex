@@ -44,6 +44,7 @@ ul, ol{list-style-type:none;
     line-height: 36px;
     letter-spacing: 0.02em;
     color: var(--color-secondary);
+    padding: 31px 0;
 }
 .footer-list {
     margin-left: auto;
@@ -54,7 +55,7 @@ ul, ol{list-style-type:none;
 }
 .footer-nav, .footer-list{
     display: flex;
-    align-items: baseline;  
+    align-items: center;  
 }
 .footer-nav {
     border-top: 1px solid #C4C4C4;
