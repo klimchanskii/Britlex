@@ -26,6 +26,75 @@ ul, ol{list-style-type:none;
 }
 
 
+/* Contact Us Vitalii */
+.contact-img {
+    margin-right: 161px;
+    width: 425px;
+    height: 430px;
+    fill: var(--color-primary);
+}
+
+.contact-main {
+    display: flex;
+    align-items: center;
+}
+
+.contact-block {
+    display: block;
+}
+
+.contact-title {
+margin-bottom: 60px;
+
+    color: #000000;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.contact-text {
+    width: 654px;
+    margin-bottom: 30px;
+
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 1.5;
+    
+    color: var(--color-secondary);
+}
+
+.contact-input {
+    width: 425px;
+    height: 70px;
+    margin-right: 30px;
+    padding: 20px 30px;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    line-height: 1.87;
+}
+
+.contact-btn {
+padding: 20px 56px;
+width: 312px;
+height: 70px;
+border-radius: 10px;
+
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--color-primary);
+color: var(---color-back);
+}
+/* Contact Us END Vitalii */
+
+
 
 /* modal */
 .backdrop{
@@ -127,4 +196,5 @@ ul, ol{list-style-type:none;
 .footer-nav {
     border-top: 1px solid #C4C4C4;
 }
+
 
