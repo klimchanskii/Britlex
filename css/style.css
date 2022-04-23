@@ -24,3 +24,68 @@ ul, ol{list-style-type:none;
 
 
 }
+
+
+/* hero */
+.container {
+    width: 1340px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container__hero {
+    display: flex;
+}
+.hero {
+    padding: 55px;
+}
+
+.hero__title {
+    display: flex;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.25;
+}
+
+.hero__icon {
+    width: 85.24px;
+    height: 85.24px;
+}
+
+.hero__text {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 40px;
+    
+    color: var(--color-secondary);
+}
+
+.hero__button {
+    display: inline-block;
+    width: 426px;
+    height: 100px;
+    
+    background-color: var(--color-primary);
+    border-radius: 10px;
+}
+
+.button__text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+   
+    letter-spacing: 0.03em;
+    color: var(---color-back);
+}
+
+.hero__img {
+    width: 654px;
+    height: 510px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+/* hero */
