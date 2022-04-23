@@ -25,6 +25,69 @@ ul, ol{list-style-type:none;
 
 }
 
+
+
+/* modal */
+.backdrop{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.2);
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+     opacity: 1; 
+    transition: opacity 250ms linear;
+
+}
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    
+    transform: translate(-50%,-50%) scale(1);
+
+    height: 581px;
+    width: 528px;
+    
+    
+    background: #FFFFFF;
+    box-shadow:
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 15px;
+    transition: transform 250ms linear ;
+
+} 
+
+.backdrop.is-hidden{
+    pointer-events: none;
+    opacity: 0;
+} 
+ .backdrop.is-hidden .modal{
+    transform: translate(-50%,-50%) scale(0.1);
+}
+
+.open-modal{
+    color: black;
+}
+                              
+
+.button-close{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;}
+    /* modal */
+
 .container {
     width: 1338px;
     margin: 0 auto;
@@ -64,3 +127,4 @@ ul, ol{list-style-type:none;
 .footer-nav {
     border-top: 1px solid #C4C4C4;
 }
+
