@@ -49,18 +49,16 @@ span {
     color: var(--color-secondary);
   }
 .main-nav {
-    display: flex;
+    display: inline-flex
     
 }
 .links {
     display: flex;
-    
-      
+          
     margin-left: 228px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 
-    width: 50px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -72,7 +70,9 @@ span {
     
 }
 .item {
-  
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
   
 }
 .links>.item:not(:last-child) {
@@ -80,10 +80,8 @@ span {
 }
 .button {
       
-    width: 200px;
-    height: 30px;
-    left: 1213px;
-    top: 75px;
+ 
+   
     
     font-family: 'Poppins';
     font-style: normal;
@@ -98,6 +96,7 @@ span {
     color: var(--color-primary);
 }
 .btn {
+    padding: 20px 56px;
     position: absolute;
     width: 312px;
     height: 70px;
