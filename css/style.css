@@ -20,8 +20,128 @@ ul, ol{list-style-type:none;
    ---color-back:#ffffff;
    --color-primary:#263238;
    --color-secondary:#8F95A5;
+  /*skill*/
+   --color-title:#000000;
+   --background-color-skill:#F5F5F5;
+/*skill*/
 
 
+}
+
+
+/*Skill*/
+
+.container{
+    width: 1380px;
+    height: auto;
+    padding: 0 20px;
+}
+.skill-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    
+
+    color: var(--color-title);
+}
+.icon-skill{
+    width: 390px;
+    height: 390px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+.icon-second-skill{
+    width: 390px;
+    height: 264px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+.icon-last-skill{
+    width: 408;
+    height: 274;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 18px;
+}
+.chapter-skill{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-left: 18px;
+    margin-bottom: 20px;
+
+
+    color: var(--color-primary);
+}
+
+.text-skill{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+    color: var(--color-secondary);
+}
+
+.skill-button{
+     display: inline-block;
+
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+   
+     line-height: 1.5;
+
+     color: var(---color-back);
+     background-color: var(--color-primary);
+     border-radius: 10px;
+}
+.first{
+    font-size: 18px;
+    padding: 16px 63px;
+}
+   
+.second{
+    font-size: 20px;
+    padding: 15px 51px;
+
+}
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-container{
+    display: block;
+    width: 426px;
+    height: 947px;
+    background-color: var(--background-color-skill);
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+.second-container{
+    width:426px ;
+    height: 579px;
+    background-color: var(--background-color-skill);
+    border-radius: 10px;
+    margin-right:30px;
+}
+.second-container:last-child{
+    margin-right: 0;
+}
+.last-container{
+    width: 882px;
+    height: 338px;
+    background-color: var(--background-color-skill);
+    border-radius: 10px;
+}
+/*skill end*/
 
 }
 
@@ -294,6 +414,7 @@ color: var(---color-back);
 .footer-nav {
     border-top: 1px solid #C4C4C4;
 }
+
 
 
 
