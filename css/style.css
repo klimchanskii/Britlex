@@ -79,10 +79,7 @@ span {
     margin-right: 50px;   
 }
 .button {
-      
- 
-   
-    
+       
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -106,4 +103,5 @@ span {
     border: 2px solid var(--color-primary);
     box-sizing: border-box;
     border-radius: 10px;
+    background-color: var(---color-back);
 }
